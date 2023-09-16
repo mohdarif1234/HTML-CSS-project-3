@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@200&family=Roboto+Condensed:wght@700&family=Shantell+Sans:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url('pexels-maxyne-barcel-10402282\ 1.png');
+    /* background-color: rgba(209, 91, 91, 0.832); */
+    overflow: hidden;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+
+    font-size: 1.2rem;
+}
+.logo{
+    width: 70%;
+
+
+}
+nav button{
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border-color: red;
+    background-color: red;
+}
+
+.main-sec{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 6%;
+
+}
+
+menu h1{
+    font-size: 4rem;
+
+}
+
+menu button{
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    margin-top: 25px;
+    color: White;
+    border-color: red;
+    background-color: red;
+    font-weight: 700;
+    
+}
+
+.scroll{
+    position: fixed;
+    align-items: end;
+    left: 90%;
+    bottom: 5%;
+    width: 100px;
+}
+
+#trans{
+    background: transparent;
+}
+
